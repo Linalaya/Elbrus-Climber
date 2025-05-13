@@ -64,11 +64,11 @@ document.addEventListener('keydown', function(event) {
         document.body.style.backgroundSize = 'contain'
         document.body.style.height = '100vh'
         if (score >= 10) {
-            document.body.style.backgroundImage = 'url("/elbrus-climber-phase0/img/animals-on-the-farm-cow-clipart-md.png")'
+            document.body.style.backgroundImage = 'url("./elbrus-climber-phase0/img/animals-on-the-farm-cow-clipart-md.png")'
             moo.play()
         }
         if (score < 10) {
-            document.body.style.backgroundImage = 'url("/elbrus-climber-phase0/img/cow-155811_1280.webp")'
+            document.body.style.backgroundImage = 'url("./elbrus-climber-phase0/img/cow-155811_1280.webp")'
             trombone.play()
         }
     }

@@ -10,7 +10,7 @@ body {
 .main {
     min-width: 100vw;
     min-height: 100vh;
-    background-image: url(/elbrus-climber-phase0/img/mountains.png);
+    background-image: url(./elbrus-climber-phase0/img/mountains.png);
     background-size: 100% 100%;
     position: relative;
 }
