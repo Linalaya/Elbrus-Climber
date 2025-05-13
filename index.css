@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.main {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url(/elbrus-climber-phase0/img/mountains.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.main > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 200px;
+    height: 140px;
+    position: absolute;
+}
+
+#one {
+    top: 75vh;
+    left: 12vw;
+}
+#two {
+    top: 35vh;
+    left: 21vw;
+}
+
+#three {
+    top: 11vh;
+    left: 40vw;
+}
+
+#four {
+    top: 42vh;
+    left: 56vw;
+}
+
+#five {
+    top: 5vh;
+    left: 72vw;
+}
+
+#six {
+    top: 50vh;
+    left: 88vw;
+}
+
+.floor {
+    height: 10px;
+    width: 100%;
+    background-color: darkgray;
+}
+
+.score {
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #2A3543;
+    color: #2A3543;
+    top: 4vh;
+    left: 2vw;
+    width: 200px;
+    height: 100px;
+}
+
+h2 {
+    margin: 5px 5px 20px 5px;
+}
